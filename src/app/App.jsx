@@ -23,7 +23,7 @@ const router =
 function App() {
   return (
     <>
-      <RouterProvider />
+      <RouterProvider router={router}/>
     </>
   );
 }
