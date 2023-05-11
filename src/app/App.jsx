@@ -10,7 +10,7 @@ import Profile from "../components/Profile";
 import EditProfileForm from "../components/EditProfileForm";
 import Root from "../components/Root";
 
-import { createBrowserRouter, Route, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, createRouteFromElements, Route, RouterProvider } from 'react-router-dom';
 
 import "./App.css";
 
