@@ -6,6 +6,7 @@ import { Link, useParams } from "react-router-dom";
 export default function Author () {
 
   // Extract the `name` URL parameter.
+  let { name } = useParams()
 
   const authors = useSelector(selectAuthors)
   const author = authors["replace me"]
