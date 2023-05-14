@@ -10,7 +10,7 @@ export default function Profile () {
   // use loggedIn to return a Navigate
   if (!loggedIn) {
     return (
-      <Navigate to="/"/>
+      <Navigate to="/sign-up"/>
     )
   }
 
